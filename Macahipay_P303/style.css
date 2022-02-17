@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0%;
+}
+
+.container {
+    margin: 40px auto;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+}
+
+.container .prod-form{
+    position: relative;
+    text-align: center;
+    margin-top: 45px;
+}
+.container .data-fname, .data-lname, .data-temp, .data-address, .data-contact{
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.container .data-fname {
+    padding-left: 95px;
+}
+
+.container .data-lname {
+    padding-left: 100.5px;
+}
+.container .data-temp {
+    padding-left: 86px;
+}
+
+.container .data-address {
+    padding-left: 115px;
+}
+
+.container .data-contact {
+    padding-left: 117px;
+}
+.container .btn-add{
+    position: relative;
+}
+.container .btn-add .btn-sub{
+    position: relative;
+    align-items: center;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    left: 570px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.form h2 {
+    width: 233px;
+    text-align: center;
+    color: #ff720f;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    
+
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff720f;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.btn_Sub {
+    width: 240px;
+    height: 40px;
+    background: #ff720f;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px; 
+    font-size: 18px; 
+    border-radius: 10px;
+    color: white;
+    transition: .4s ease;
+
+}
+
+.btn_Sub:hover {
+    background: white;
+    color:  #ff720f;
+}
+
+.btn_Sub a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.cont_{
+    position: relative;
+    margin-top: 100px;
+}
+

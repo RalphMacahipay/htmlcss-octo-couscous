@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid_user</title>
+</head>
+<body>
+    <div class="container">
+        <div class="prod-form">
+            <h2>Log in Management System</h2>
+        </div>
+        <form action="connect.php" method="post">
+            <div class="data-fname">
+                <label class="firstname">First Name</label>
+                <input type="text" class="input-fname" required id="myName" name="myName">
+            </div>
+            <div class="data-lname">
+                <label class="lastname">Last name</label>
+                <input type="text" class="input-lname" required id="lastName" name="lastName">
+            </div>
+                      
+            <div class="data-address">
+                <label class="address">Address</label>
+                <input type="text" class="input-add" required id="myAddress" name="myAddress">
+            </div>  
+
+            <div class="data-contact">
+                <label class="contact">Contact</label>
+                <input type="text" class="input-cont" required id="myCont" name="myCont">
+            </div>
+
+            <div class="data-temp">
+                <label class="temperature">Temperature</label>
+                <input type="text" class="input-temp" required id="myTemp" name="myTemp">
+            </div>
+            <div class="btn-add">
+                    <input type="submit" class="btn-sub" onclick="alert('New record added')" >    
+            </div>
+        </form>
+        
+    </div>
+</body>
+</html>
